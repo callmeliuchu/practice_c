@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/liuchu/clion-2019.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/liuchu/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/liuchu/CLionProjects/ky
+CMAKE_SOURCE_DIR = /home/liuchu/practice_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/liuchu/CLionProjects/ky/cmake-build-debug
+CMAKE_BINARY_DIR = /home/liuchu/practice_c/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ky.dir/depend.make
@@ -59,120 +59,237 @@ include CMakeFiles/ky.dir/flags.make
 
 CMakeFiles/ky.dir/get_weekday_.cpp.o: CMakeFiles/ky.dir/flags.make
 CMakeFiles/ky.dir/get_weekday_.cpp.o: ../get_weekday_.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ky.dir/get_weekday_.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/get_weekday_.cpp.o -c /Users/liuchu/CLionProjects/ky/get_weekday_.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ky.dir/get_weekday_.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/get_weekday_.cpp.o -c /home/liuchu/practice_c/get_weekday_.cpp
 
 CMakeFiles/ky.dir/get_weekday_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/get_weekday_.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchu/CLionProjects/ky/get_weekday_.cpp > CMakeFiles/ky.dir/get_weekday_.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/get_weekday_.cpp > CMakeFiles/ky.dir/get_weekday_.cpp.i
 
 CMakeFiles/ky.dir/get_weekday_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/get_weekday_.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchu/CLionProjects/ky/get_weekday_.cpp -o CMakeFiles/ky.dir/get_weekday_.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/get_weekday_.cpp -o CMakeFiles/ky.dir/get_weekday_.cpp.s
 
 CMakeFiles/ky.dir/bianweici.cpp.o: CMakeFiles/ky.dir/flags.make
 CMakeFiles/ky.dir/bianweici.cpp.o: ../bianweici.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ky.dir/bianweici.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/bianweici.cpp.o -c /Users/liuchu/CLionProjects/ky/bianweici.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ky.dir/bianweici.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/bianweici.cpp.o -c /home/liuchu/practice_c/bianweici.cpp
 
 CMakeFiles/ky.dir/bianweici.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/bianweici.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchu/CLionProjects/ky/bianweici.cpp > CMakeFiles/ky.dir/bianweici.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/bianweici.cpp > CMakeFiles/ky.dir/bianweici.cpp.i
 
 CMakeFiles/ky.dir/bianweici.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/bianweici.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchu/CLionProjects/ky/bianweici.cpp -o CMakeFiles/ky.dir/bianweici.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/bianweici.cpp -o CMakeFiles/ky.dir/bianweici.cpp.s
 
 CMakeFiles/ky.dir/insert_value.cpp.o: CMakeFiles/ky.dir/flags.make
 CMakeFiles/ky.dir/insert_value.cpp.o: ../insert_value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ky.dir/insert_value.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/insert_value.cpp.o -c /Users/liuchu/CLionProjects/ky/insert_value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ky.dir/insert_value.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/insert_value.cpp.o -c /home/liuchu/practice_c/insert_value.cpp
 
 CMakeFiles/ky.dir/insert_value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/insert_value.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchu/CLionProjects/ky/insert_value.cpp > CMakeFiles/ky.dir/insert_value.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/insert_value.cpp > CMakeFiles/ky.dir/insert_value.cpp.i
 
 CMakeFiles/ky.dir/insert_value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/insert_value.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchu/CLionProjects/ky/insert_value.cpp -o CMakeFiles/ky.dir/insert_value.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/insert_value.cpp -o CMakeFiles/ky.dir/insert_value.cpp.s
 
 CMakeFiles/ky.dir/freqs_.cpp.o: CMakeFiles/ky.dir/flags.make
 CMakeFiles/ky.dir/freqs_.cpp.o: ../freqs_.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ky.dir/freqs_.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/freqs_.cpp.o -c /Users/liuchu/CLionProjects/ky/freqs_.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ky.dir/freqs_.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/freqs_.cpp.o -c /home/liuchu/practice_c/freqs_.cpp
 
 CMakeFiles/ky.dir/freqs_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/freqs_.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchu/CLionProjects/ky/freqs_.cpp > CMakeFiles/ky.dir/freqs_.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/freqs_.cpp > CMakeFiles/ky.dir/freqs_.cpp.i
 
 CMakeFiles/ky.dir/freqs_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/freqs_.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchu/CLionProjects/ky/freqs_.cpp -o CMakeFiles/ky.dir/freqs_.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/freqs_.cpp -o CMakeFiles/ky.dir/freqs_.cpp.s
 
 CMakeFiles/ky.dir/check_s.cpp.o: CMakeFiles/ky.dir/flags.make
 CMakeFiles/ky.dir/check_s.cpp.o: ../check_s.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ky.dir/check_s.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/check_s.cpp.o -c /Users/liuchu/CLionProjects/ky/check_s.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ky.dir/check_s.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/check_s.cpp.o -c /home/liuchu/practice_c/check_s.cpp
 
 CMakeFiles/ky.dir/check_s.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/check_s.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchu/CLionProjects/ky/check_s.cpp > CMakeFiles/ky.dir/check_s.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/check_s.cpp > CMakeFiles/ky.dir/check_s.cpp.i
 
 CMakeFiles/ky.dir/check_s.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/check_s.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchu/CLionProjects/ky/check_s.cpp -o CMakeFiles/ky.dir/check_s.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/check_s.cpp -o CMakeFiles/ky.dir/check_s.cpp.s
 
 CMakeFiles/ky.dir/parent.cpp.o: CMakeFiles/ky.dir/flags.make
 CMakeFiles/ky.dir/parent.cpp.o: ../parent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ky.dir/parent.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/parent.cpp.o -c /Users/liuchu/CLionProjects/ky/parent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ky.dir/parent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/parent.cpp.o -c /home/liuchu/practice_c/parent.cpp
 
 CMakeFiles/ky.dir/parent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/parent.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchu/CLionProjects/ky/parent.cpp > CMakeFiles/ky.dir/parent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/parent.cpp > CMakeFiles/ky.dir/parent.cpp.i
 
 CMakeFiles/ky.dir/parent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/parent.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchu/CLionProjects/ky/parent.cpp -o CMakeFiles/ky.dir/parent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/parent.cpp -o CMakeFiles/ky.dir/parent.cpp.s
 
 CMakeFiles/ky.dir/split_nums.cpp.o: CMakeFiles/ky.dir/flags.make
 CMakeFiles/ky.dir/split_nums.cpp.o: ../split_nums.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ky.dir/split_nums.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/split_nums.cpp.o -c /Users/liuchu/CLionProjects/ky/split_nums.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ky.dir/split_nums.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/split_nums.cpp.o -c /home/liuchu/practice_c/split_nums.cpp
 
 CMakeFiles/ky.dir/split_nums.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/split_nums.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchu/CLionProjects/ky/split_nums.cpp > CMakeFiles/ky.dir/split_nums.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/split_nums.cpp > CMakeFiles/ky.dir/split_nums.cpp.i
 
 CMakeFiles/ky.dir/split_nums.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/split_nums.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchu/CLionProjects/ky/split_nums.cpp -o CMakeFiles/ky.dir/split_nums.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/split_nums.cpp -o CMakeFiles/ky.dir/split_nums.cpp.s
 
 CMakeFiles/ky.dir/find_max_.cpp.o: CMakeFiles/ky.dir/flags.make
 CMakeFiles/ky.dir/find_max_.cpp.o: ../find_max_.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ky.dir/find_max_.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/find_max_.cpp.o -c /Users/liuchu/CLionProjects/ky/find_max_.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ky.dir/find_max_.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/find_max_.cpp.o -c /home/liuchu/practice_c/find_max_.cpp
 
 CMakeFiles/ky.dir/find_max_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/find_max_.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchu/CLionProjects/ky/find_max_.cpp > CMakeFiles/ky.dir/find_max_.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/find_max_.cpp > CMakeFiles/ky.dir/find_max_.cpp.i
 
 CMakeFiles/ky.dir/find_max_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/find_max_.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchu/CLionProjects/ky/find_max_.cpp -o CMakeFiles/ky.dir/find_max_.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/find_max_.cpp -o CMakeFiles/ky.dir/find_max_.cpp.s
 
 CMakeFiles/ky.dir/find_and_delete.cpp.o: CMakeFiles/ky.dir/flags.make
 CMakeFiles/ky.dir/find_and_delete.cpp.o: ../find_and_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ky.dir/find_and_delete.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/find_and_delete.cpp.o -c /Users/liuchu/CLionProjects/ky/find_and_delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ky.dir/find_and_delete.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/find_and_delete.cpp.o -c /home/liuchu/practice_c/find_and_delete.cpp
 
 CMakeFiles/ky.dir/find_and_delete.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/find_and_delete.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchu/CLionProjects/ky/find_and_delete.cpp > CMakeFiles/ky.dir/find_and_delete.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/find_and_delete.cpp > CMakeFiles/ky.dir/find_and_delete.cpp.i
 
 CMakeFiles/ky.dir/find_and_delete.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/find_and_delete.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchu/CLionProjects/ky/find_and_delete.cpp -o CMakeFiles/ky.dir/find_and_delete.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/find_and_delete.cpp -o CMakeFiles/ky.dir/find_and_delete.cpp.s
+
+CMakeFiles/ky.dir/find_and_delete_1.cpp.o: CMakeFiles/ky.dir/flags.make
+CMakeFiles/ky.dir/find_and_delete_1.cpp.o: ../find_and_delete_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ky.dir/find_and_delete_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/find_and_delete_1.cpp.o -c /home/liuchu/practice_c/find_and_delete_1.cpp
+
+CMakeFiles/ky.dir/find_and_delete_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/find_and_delete_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/find_and_delete_1.cpp > CMakeFiles/ky.dir/find_and_delete_1.cpp.i
+
+CMakeFiles/ky.dir/find_and_delete_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/find_and_delete_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/find_and_delete_1.cpp -o CMakeFiles/ky.dir/find_and_delete_1.cpp.s
+
+CMakeFiles/ky.dir/find_max_1.cpp.o: CMakeFiles/ky.dir/flags.make
+CMakeFiles/ky.dir/find_max_1.cpp.o: ../find_max_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ky.dir/find_max_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/find_max_1.cpp.o -c /home/liuchu/practice_c/find_max_1.cpp
+
+CMakeFiles/ky.dir/find_max_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/find_max_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/find_max_1.cpp > CMakeFiles/ky.dir/find_max_1.cpp.i
+
+CMakeFiles/ky.dir/find_max_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/find_max_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/find_max_1.cpp -o CMakeFiles/ky.dir/find_max_1.cpp.s
+
+CMakeFiles/ky.dir/freqs_1.cpp.o: CMakeFiles/ky.dir/flags.make
+CMakeFiles/ky.dir/freqs_1.cpp.o: ../freqs_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ky.dir/freqs_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/freqs_1.cpp.o -c /home/liuchu/practice_c/freqs_1.cpp
+
+CMakeFiles/ky.dir/freqs_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/freqs_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/freqs_1.cpp > CMakeFiles/ky.dir/freqs_1.cpp.i
+
+CMakeFiles/ky.dir/freqs_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/freqs_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/freqs_1.cpp -o CMakeFiles/ky.dir/freqs_1.cpp.s
+
+CMakeFiles/ky.dir/insert_value_1.cpp.o: CMakeFiles/ky.dir/flags.make
+CMakeFiles/ky.dir/insert_value_1.cpp.o: ../insert_value_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ky.dir/insert_value_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/insert_value_1.cpp.o -c /home/liuchu/practice_c/insert_value_1.cpp
+
+CMakeFiles/ky.dir/insert_value_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/insert_value_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/insert_value_1.cpp > CMakeFiles/ky.dir/insert_value_1.cpp.i
+
+CMakeFiles/ky.dir/insert_value_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/insert_value_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/insert_value_1.cpp -o CMakeFiles/ky.dir/insert_value_1.cpp.s
+
+CMakeFiles/ky.dir/parent_1.cpp.o: CMakeFiles/ky.dir/flags.make
+CMakeFiles/ky.dir/parent_1.cpp.o: ../parent_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ky.dir/parent_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/parent_1.cpp.o -c /home/liuchu/practice_c/parent_1.cpp
+
+CMakeFiles/ky.dir/parent_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/parent_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/parent_1.cpp > CMakeFiles/ky.dir/parent_1.cpp.i
+
+CMakeFiles/ky.dir/parent_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/parent_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/parent_1.cpp -o CMakeFiles/ky.dir/parent_1.cpp.s
+
+CMakeFiles/ky.dir/split_nums_1.cpp.o: CMakeFiles/ky.dir/flags.make
+CMakeFiles/ky.dir/split_nums_1.cpp.o: ../split_nums_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ky.dir/split_nums_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/split_nums_1.cpp.o -c /home/liuchu/practice_c/split_nums_1.cpp
+
+CMakeFiles/ky.dir/split_nums_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/split_nums_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/split_nums_1.cpp > CMakeFiles/ky.dir/split_nums_1.cpp.i
+
+CMakeFiles/ky.dir/split_nums_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/split_nums_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/split_nums_1.cpp -o CMakeFiles/ky.dir/split_nums_1.cpp.s
+
+CMakeFiles/ky.dir/bianweici_1.cpp.o: CMakeFiles/ky.dir/flags.make
+CMakeFiles/ky.dir/bianweici_1.cpp.o: ../bianweici_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ky.dir/bianweici_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/bianweici_1.cpp.o -c /home/liuchu/practice_c/bianweici_1.cpp
+
+CMakeFiles/ky.dir/bianweici_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/bianweici_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/bianweici_1.cpp > CMakeFiles/ky.dir/bianweici_1.cpp.i
+
+CMakeFiles/ky.dir/bianweici_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/bianweici_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/bianweici_1.cpp -o CMakeFiles/ky.dir/bianweici_1.cpp.s
+
+CMakeFiles/ky.dir/get_weekday_1.cpp.o: CMakeFiles/ky.dir/flags.make
+CMakeFiles/ky.dir/get_weekday_1.cpp.o: ../get_weekday_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ky.dir/get_weekday_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/get_weekday_1.cpp.o -c /home/liuchu/practice_c/get_weekday_1.cpp
+
+CMakeFiles/ky.dir/get_weekday_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/get_weekday_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/get_weekday_1.cpp > CMakeFiles/ky.dir/get_weekday_1.cpp.i
+
+CMakeFiles/ky.dir/get_weekday_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/get_weekday_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/get_weekday_1.cpp -o CMakeFiles/ky.dir/get_weekday_1.cpp.s
+
+CMakeFiles/ky.dir/test_file_op.cpp.o: CMakeFiles/ky.dir/flags.make
+CMakeFiles/ky.dir/test_file_op.cpp.o: ../test_file_op.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ky.dir/test_file_op.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ky.dir/test_file_op.cpp.o -c /home/liuchu/practice_c/test_file_op.cpp
+
+CMakeFiles/ky.dir/test_file_op.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ky.dir/test_file_op.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchu/practice_c/test_file_op.cpp > CMakeFiles/ky.dir/test_file_op.cpp.i
+
+CMakeFiles/ky.dir/test_file_op.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ky.dir/test_file_op.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchu/practice_c/test_file_op.cpp -o CMakeFiles/ky.dir/test_file_op.cpp.s
 
 # Object files for target ky
 ky_OBJECTS = \
@@ -184,7 +301,16 @@ ky_OBJECTS = \
 "CMakeFiles/ky.dir/parent.cpp.o" \
 "CMakeFiles/ky.dir/split_nums.cpp.o" \
 "CMakeFiles/ky.dir/find_max_.cpp.o" \
-"CMakeFiles/ky.dir/find_and_delete.cpp.o"
+"CMakeFiles/ky.dir/find_and_delete.cpp.o" \
+"CMakeFiles/ky.dir/find_and_delete_1.cpp.o" \
+"CMakeFiles/ky.dir/find_max_1.cpp.o" \
+"CMakeFiles/ky.dir/freqs_1.cpp.o" \
+"CMakeFiles/ky.dir/insert_value_1.cpp.o" \
+"CMakeFiles/ky.dir/parent_1.cpp.o" \
+"CMakeFiles/ky.dir/split_nums_1.cpp.o" \
+"CMakeFiles/ky.dir/bianweici_1.cpp.o" \
+"CMakeFiles/ky.dir/get_weekday_1.cpp.o" \
+"CMakeFiles/ky.dir/test_file_op.cpp.o"
 
 # External object files for target ky
 ky_EXTERNAL_OBJECTS =
@@ -198,9 +324,18 @@ ky: CMakeFiles/ky.dir/parent.cpp.o
 ky: CMakeFiles/ky.dir/split_nums.cpp.o
 ky: CMakeFiles/ky.dir/find_max_.cpp.o
 ky: CMakeFiles/ky.dir/find_and_delete.cpp.o
+ky: CMakeFiles/ky.dir/find_and_delete_1.cpp.o
+ky: CMakeFiles/ky.dir/find_max_1.cpp.o
+ky: CMakeFiles/ky.dir/freqs_1.cpp.o
+ky: CMakeFiles/ky.dir/insert_value_1.cpp.o
+ky: CMakeFiles/ky.dir/parent_1.cpp.o
+ky: CMakeFiles/ky.dir/split_nums_1.cpp.o
+ky: CMakeFiles/ky.dir/bianweici_1.cpp.o
+ky: CMakeFiles/ky.dir/get_weekday_1.cpp.o
+ky: CMakeFiles/ky.dir/test_file_op.cpp.o
 ky: CMakeFiles/ky.dir/build.make
 ky: CMakeFiles/ky.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ky"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liuchu/practice_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable ky"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ky.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -213,6 +348,6 @@ CMakeFiles/ky.dir/clean:
 .PHONY : CMakeFiles/ky.dir/clean
 
 CMakeFiles/ky.dir/depend:
-	cd /Users/liuchu/CLionProjects/ky/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/liuchu/CLionProjects/ky /Users/liuchu/CLionProjects/ky /Users/liuchu/CLionProjects/ky/cmake-build-debug /Users/liuchu/CLionProjects/ky/cmake-build-debug /Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles/ky.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liuchu/practice_c/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liuchu/practice_c /home/liuchu/practice_c /home/liuchu/practice_c/cmake-build-debug /home/liuchu/practice_c/cmake-build-debug /home/liuchu/practice_c/cmake-build-debug/CMakeFiles/ky.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ky.dir/depend
 

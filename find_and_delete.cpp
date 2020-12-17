@@ -9,7 +9,7 @@
 int find_delete(char *s,char c){
     for(int i=0;s[i];i++){
         if(s[i] == c){
-            strcpy(&s[i],&s[i+1]);
+            strcpy(s+i,s+i+1);
             return i;
         }
     }

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/liuchu/clion-2019.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/liuchu/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/liuchu/CLionProjects/ky
+CMAKE_SOURCE_DIR = /home/liuchu/practice_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/liuchu/CLionProjects/ky/cmake-build-debug
+CMAKE_BINARY_DIR = /home/liuchu/practice_c/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/liuchu/CLionProjects/ky/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/liuchu/clion-2019.2.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/liuchu/clion-2019.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles /Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuchu/practice_c/cmake-build-debug/CMakeFiles /home/liuchu/practice_c/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liuchu/CLionProjects/ky/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuchu/practice_c/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ bianweici.cpp.s:
 	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/bianweici.cpp.s
 .PHONY : bianweici.cpp.s
 
+bianweici_1.o: bianweici_1.cpp.o
+
+.PHONY : bianweici_1.o
+
+# target to build an object file
+bianweici_1.cpp.o:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/bianweici_1.cpp.o
+.PHONY : bianweici_1.cpp.o
+
+bianweici_1.i: bianweici_1.cpp.i
+
+.PHONY : bianweici_1.i
+
+# target to preprocess a source file
+bianweici_1.cpp.i:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/bianweici_1.cpp.i
+.PHONY : bianweici_1.cpp.i
+
+bianweici_1.s: bianweici_1.cpp.s
+
+.PHONY : bianweici_1.s
+
+# target to generate assembly for a file
+bianweici_1.cpp.s:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/bianweici_1.cpp.s
+.PHONY : bianweici_1.cpp.s
+
 check_s.o: check_s.cpp.o
 
 .PHONY : check_s.o
@@ -204,6 +231,33 @@ find_and_delete.cpp.s:
 	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/find_and_delete.cpp.s
 .PHONY : find_and_delete.cpp.s
 
+find_and_delete_1.o: find_and_delete_1.cpp.o
+
+.PHONY : find_and_delete_1.o
+
+# target to build an object file
+find_and_delete_1.cpp.o:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/find_and_delete_1.cpp.o
+.PHONY : find_and_delete_1.cpp.o
+
+find_and_delete_1.i: find_and_delete_1.cpp.i
+
+.PHONY : find_and_delete_1.i
+
+# target to preprocess a source file
+find_and_delete_1.cpp.i:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/find_and_delete_1.cpp.i
+.PHONY : find_and_delete_1.cpp.i
+
+find_and_delete_1.s: find_and_delete_1.cpp.s
+
+.PHONY : find_and_delete_1.s
+
+# target to generate assembly for a file
+find_and_delete_1.cpp.s:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/find_and_delete_1.cpp.s
+.PHONY : find_and_delete_1.cpp.s
+
 find_max_.o: find_max_.cpp.o
 
 .PHONY : find_max_.o
@@ -230,6 +284,33 @@ find_max_.s: find_max_.cpp.s
 find_max_.cpp.s:
 	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/find_max_.cpp.s
 .PHONY : find_max_.cpp.s
+
+find_max_1.o: find_max_1.cpp.o
+
+.PHONY : find_max_1.o
+
+# target to build an object file
+find_max_1.cpp.o:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/find_max_1.cpp.o
+.PHONY : find_max_1.cpp.o
+
+find_max_1.i: find_max_1.cpp.i
+
+.PHONY : find_max_1.i
+
+# target to preprocess a source file
+find_max_1.cpp.i:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/find_max_1.cpp.i
+.PHONY : find_max_1.cpp.i
+
+find_max_1.s: find_max_1.cpp.s
+
+.PHONY : find_max_1.s
+
+# target to generate assembly for a file
+find_max_1.cpp.s:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/find_max_1.cpp.s
+.PHONY : find_max_1.cpp.s
 
 freqs_.o: freqs_.cpp.o
 
@@ -258,6 +339,33 @@ freqs_.cpp.s:
 	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/freqs_.cpp.s
 .PHONY : freqs_.cpp.s
 
+freqs_1.o: freqs_1.cpp.o
+
+.PHONY : freqs_1.o
+
+# target to build an object file
+freqs_1.cpp.o:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/freqs_1.cpp.o
+.PHONY : freqs_1.cpp.o
+
+freqs_1.i: freqs_1.cpp.i
+
+.PHONY : freqs_1.i
+
+# target to preprocess a source file
+freqs_1.cpp.i:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/freqs_1.cpp.i
+.PHONY : freqs_1.cpp.i
+
+freqs_1.s: freqs_1.cpp.s
+
+.PHONY : freqs_1.s
+
+# target to generate assembly for a file
+freqs_1.cpp.s:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/freqs_1.cpp.s
+.PHONY : freqs_1.cpp.s
+
 get_weekday_.o: get_weekday_.cpp.o
 
 .PHONY : get_weekday_.o
@@ -284,6 +392,33 @@ get_weekday_.s: get_weekday_.cpp.s
 get_weekday_.cpp.s:
 	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/get_weekday_.cpp.s
 .PHONY : get_weekday_.cpp.s
+
+get_weekday_1.o: get_weekday_1.cpp.o
+
+.PHONY : get_weekday_1.o
+
+# target to build an object file
+get_weekday_1.cpp.o:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/get_weekday_1.cpp.o
+.PHONY : get_weekday_1.cpp.o
+
+get_weekday_1.i: get_weekday_1.cpp.i
+
+.PHONY : get_weekday_1.i
+
+# target to preprocess a source file
+get_weekday_1.cpp.i:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/get_weekday_1.cpp.i
+.PHONY : get_weekday_1.cpp.i
+
+get_weekday_1.s: get_weekday_1.cpp.s
+
+.PHONY : get_weekday_1.s
+
+# target to generate assembly for a file
+get_weekday_1.cpp.s:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/get_weekday_1.cpp.s
+.PHONY : get_weekday_1.cpp.s
 
 insert_value.o: insert_value.cpp.o
 
@@ -312,6 +447,33 @@ insert_value.cpp.s:
 	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/insert_value.cpp.s
 .PHONY : insert_value.cpp.s
 
+insert_value_1.o: insert_value_1.cpp.o
+
+.PHONY : insert_value_1.o
+
+# target to build an object file
+insert_value_1.cpp.o:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/insert_value_1.cpp.o
+.PHONY : insert_value_1.cpp.o
+
+insert_value_1.i: insert_value_1.cpp.i
+
+.PHONY : insert_value_1.i
+
+# target to preprocess a source file
+insert_value_1.cpp.i:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/insert_value_1.cpp.i
+.PHONY : insert_value_1.cpp.i
+
+insert_value_1.s: insert_value_1.cpp.s
+
+.PHONY : insert_value_1.s
+
+# target to generate assembly for a file
+insert_value_1.cpp.s:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/insert_value_1.cpp.s
+.PHONY : insert_value_1.cpp.s
+
 parent.o: parent.cpp.o
 
 .PHONY : parent.o
@@ -338,6 +500,33 @@ parent.s: parent.cpp.s
 parent.cpp.s:
 	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/parent.cpp.s
 .PHONY : parent.cpp.s
+
+parent_1.o: parent_1.cpp.o
+
+.PHONY : parent_1.o
+
+# target to build an object file
+parent_1.cpp.o:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/parent_1.cpp.o
+.PHONY : parent_1.cpp.o
+
+parent_1.i: parent_1.cpp.i
+
+.PHONY : parent_1.i
+
+# target to preprocess a source file
+parent_1.cpp.i:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/parent_1.cpp.i
+.PHONY : parent_1.cpp.i
+
+parent_1.s: parent_1.cpp.s
+
+.PHONY : parent_1.s
+
+# target to generate assembly for a file
+parent_1.cpp.s:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/parent_1.cpp.s
+.PHONY : parent_1.cpp.s
 
 split_nums.o: split_nums.cpp.o
 
@@ -366,6 +555,60 @@ split_nums.cpp.s:
 	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/split_nums.cpp.s
 .PHONY : split_nums.cpp.s
 
+split_nums_1.o: split_nums_1.cpp.o
+
+.PHONY : split_nums_1.o
+
+# target to build an object file
+split_nums_1.cpp.o:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/split_nums_1.cpp.o
+.PHONY : split_nums_1.cpp.o
+
+split_nums_1.i: split_nums_1.cpp.i
+
+.PHONY : split_nums_1.i
+
+# target to preprocess a source file
+split_nums_1.cpp.i:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/split_nums_1.cpp.i
+.PHONY : split_nums_1.cpp.i
+
+split_nums_1.s: split_nums_1.cpp.s
+
+.PHONY : split_nums_1.s
+
+# target to generate assembly for a file
+split_nums_1.cpp.s:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/split_nums_1.cpp.s
+.PHONY : split_nums_1.cpp.s
+
+test_file_op.o: test_file_op.cpp.o
+
+.PHONY : test_file_op.o
+
+# target to build an object file
+test_file_op.cpp.o:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/test_file_op.cpp.o
+.PHONY : test_file_op.cpp.o
+
+test_file_op.i: test_file_op.cpp.i
+
+.PHONY : test_file_op.i
+
+# target to preprocess a source file
+test_file_op.cpp.i:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/test_file_op.cpp.i
+.PHONY : test_file_op.cpp.i
+
+test_file_op.s: test_file_op.cpp.s
+
+.PHONY : test_file_op.s
+
+# target to generate assembly for a file
+test_file_op.cpp.s:
+	$(MAKE) -f CMakeFiles/ky.dir/build.make CMakeFiles/ky.dir/test_file_op.cpp.s
+.PHONY : test_file_op.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -373,35 +616,62 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... ky"
+	@echo "... edit_cache"
 	@echo "... bianweici.o"
 	@echo "... bianweici.i"
 	@echo "... bianweici.s"
+	@echo "... bianweici_1.o"
+	@echo "... bianweici_1.i"
+	@echo "... bianweici_1.s"
 	@echo "... check_s.o"
 	@echo "... check_s.i"
 	@echo "... check_s.s"
 	@echo "... find_and_delete.o"
 	@echo "... find_and_delete.i"
 	@echo "... find_and_delete.s"
+	@echo "... find_and_delete_1.o"
+	@echo "... find_and_delete_1.i"
+	@echo "... find_and_delete_1.s"
 	@echo "... find_max_.o"
 	@echo "... find_max_.i"
 	@echo "... find_max_.s"
+	@echo "... find_max_1.o"
+	@echo "... find_max_1.i"
+	@echo "... find_max_1.s"
 	@echo "... freqs_.o"
 	@echo "... freqs_.i"
 	@echo "... freqs_.s"
+	@echo "... freqs_1.o"
+	@echo "... freqs_1.i"
+	@echo "... freqs_1.s"
 	@echo "... get_weekday_.o"
 	@echo "... get_weekday_.i"
 	@echo "... get_weekday_.s"
+	@echo "... get_weekday_1.o"
+	@echo "... get_weekday_1.i"
+	@echo "... get_weekday_1.s"
 	@echo "... insert_value.o"
 	@echo "... insert_value.i"
 	@echo "... insert_value.s"
+	@echo "... insert_value_1.o"
+	@echo "... insert_value_1.i"
+	@echo "... insert_value_1.s"
 	@echo "... parent.o"
 	@echo "... parent.i"
 	@echo "... parent.s"
+	@echo "... parent_1.o"
+	@echo "... parent_1.i"
+	@echo "... parent_1.s"
 	@echo "... split_nums.o"
 	@echo "... split_nums.i"
 	@echo "... split_nums.s"
+	@echo "... split_nums_1.o"
+	@echo "... split_nums_1.i"
+	@echo "... split_nums_1.s"
+	@echo "... test_file_op.o"
+	@echo "... test_file_op.i"
+	@echo "... test_file_op.s"
 .PHONY : help
 
 
