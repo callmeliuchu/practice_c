@@ -80,9 +80,41 @@ void test6(){
     }
 }
 
+struct student{
+    int num;
+    int score;
+    char name[20];
+};
+
+void create(){
+    FILE *fp;
+    if((fp=fopen("data.db","wb"))==NULL){
+        printf("can not open the file\n");
+        exit(EXIT_FAILURE);
+    }
+    for(int i=0;i<10;i++){
+        student stu = {10,100,"lihua"};
+        fwrite(&stu,sizeof(student),1,fp);
+    }
+    fclose(fp);
+}
 
 
+void test_read(){
+    FILE *fp;
+    if((fp=fopen("data.db","rb"))==NULL){
+        printf("can not open the file\n");
+        exit(EXIT_FAILURE);
+    }
+    struct student stus[10];
+    for(int i=0;i<10;i++){
+        fseek(fp,i*sizeof(struct student),0);
+        fread(&stus[i],sizeof(struct student),1,fp);
+        printf("%d,%d,%s\n",stus[i].num,stus[i].score,stus[i].name);
+    }
+    fclose(fp);
+}
 
 int main(){
-    test6();
+    test_read();
 }
